@@ -32,7 +32,8 @@ Features
 
 3. **Clone this repository** by running the following command in the terminal:
 
-```git clone https://github.com/garvit-ai/JK_Momentum_Strategy.git
+```
+git clone https://github.com/garvit-ai/JK_Momentum_Strategy.git
 ```
 
 After cloning the repository, ensure:
@@ -52,7 +53,7 @@ custom_start_date = pd.to_datetime("2002-01-01")
 ```
 custom_end_date = pd.to_datetime("2024-12-31")
 ```
-in last seciton running engine
+in last section running engine
 ```
 J_list, K_list = [6], [3]  # Modify these lists as desired
 ```
