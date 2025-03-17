@@ -32,8 +32,8 @@ Features
 
 3. **Clone this repository** by running the following command in the terminal:
 
-```bash```
-git clone https://github.com/garvit-ai/JK_Momentum_Strategy.git
+```git clone https://github.com/garvit-ai/JK_Momentum_Strategy.git
+```
 
 After cloning the repository, ensure:
 
@@ -46,7 +46,10 @@ file_path = 'path/to/Monthly_Log_Returns(prcnt) 2002-2024.xlsx'
 You can customize the start and end dates, and adjust the J/K combinations directly in the notebook as per your requirement:
 
 in section 2 load and filter data
-```custom_start_date = pd.to_datetime("2002-01-01")
+```
+custom_start_date = pd.to_datetime("2002-01-01")
+```
+```
 custom_end_date = pd.to_datetime("2024-12-31")
 ```
 in last seciton running engine
